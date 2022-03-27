@@ -7,4 +7,4 @@ graalvm-ce-java11-linux-amd64-22.0.0.2.tar.gz
 
     export LLVM_TOOLCHAIN=$(lli --print-toolchain-path)
 
-    $LLVM_TOOLCHAIN/clang -mrdrnd -shared rdrand.c -o rdrand.so
+    $LLVM_TOOLCHAIN/clang -mrdrnd -shared rdrand.c -o rdrand

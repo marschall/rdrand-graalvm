@@ -16,7 +16,7 @@ final class Rdrand {
     Context polyglott = Context.newBuilder("llvm")
       .allowNativeAccess(true)
       .build();
-    File file = new File("/home/marschall/git/rdrand-graalvm/src/main/c/rdrand.so");
+    File file = new File("/home/marschall/git/rdrand-graalvm/src/main/c/rdrand");
     Source source;
     try {
       source = Source.newBuilder("llvm", file)
